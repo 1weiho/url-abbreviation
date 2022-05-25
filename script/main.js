@@ -1,3 +1,8 @@
+$(() => {
+    let url_name = getUrl();
+    searchUrl(url_name);
+});
+
 const getUrl = () => {
     let param = new URLSearchParams(window.location.search);
     return param.get("n");
