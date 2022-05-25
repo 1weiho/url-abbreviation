@@ -18,3 +18,7 @@ const searchUrl = (url_name) => {
     });
 };
 
+const jump = (url) => {
+    document.location.href = "https://" + url;
+};
+
