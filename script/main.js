@@ -22,3 +22,7 @@ const jump = (url) => {
     document.location.href = "https://" + url;
 };
 
+const displayError = () => {
+    $("#title").addClass("hide");
+    $("#error-text").removeClass("hide");
+};
